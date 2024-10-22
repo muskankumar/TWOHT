@@ -1,3 +1,44 @@
-:root {
-    --primary-color: #3498db;
+@font-face {
+    font-family: 'CanvaSans';
+    src: url('Assets/Fonts/CanvaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('Assets/Fonts/LeagueSpartan.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quintessential';
+    src: url('Assets/Fonts/Quintessential.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TheSeason';
+    src: url('Assets/Fonts/theseasons-reg.otf') format('woff');
+}
+
+
+.navbar-brand img {
+    height: 100%;
+    width: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    max-height: 120px;
+  }
+
+.navbar_style {
+background-color: #c0c3ba;
+}
+
+.navbar_btn_style
+{
+background-color: #3f3244;
+}
+
+.title_style{
+    font-family: 'TheSeason';
+    color: #3f3244;
+    font-style: normal;
+    font-size: 1.8rem;
 }
