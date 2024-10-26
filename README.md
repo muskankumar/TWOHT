@@ -18,3 +18,16 @@ Requirements:
 3. Books to be put in the spotlight books
 4. Who all in the authors section to be put
 5. 1920 x 1080 px images will be good and which have aspect ratio 16:9
+8. Add the TWOHT icon on the browser tab
+
+
+applogo : .ico file is require, also good 1:1 aspect ratio logo png without background required. (.ico, .png)
+carousel : 1920 x 1080 px images will be good and which have aspect ratio 16:9 (.jpeg)
+spotlight books : Which books the publish ?
+    Non-fiction books –  5 x 8.5, 6 x 9, 7 x 10
+    Fiction –  4.25 x 6.87, 5 x 8, 5.25 x 8, 5.5 x 8.5, 6 x 9
+    Children’s books –  7.5 x 7.5, 7 x 10, 10 x 8
+    Novella –  5 x 8
+    Textbooks –  6 x 9, 7 x 10, 8.5 x 11
+    Manuals & Workbooks – 8.5 x 11
+

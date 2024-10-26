@@ -18,6 +18,10 @@
     src: url('Assets/Fonts/theseasons-reg.otf') format('woff');
 }
 
+html, body{
+    padding: 0;
+    margin: 0;
+}
 
 .navbar-brand img {
     height: 100%;
@@ -49,6 +53,13 @@ background-color: #3f3244;
     object-fit: cover;
     object-position: center;
 
+}
+
+.text_style{
+    max-height: 100px;
+    text-wrap: wrap;
+    text-overflow: clip;
+    overflow: hidden;
 }
 
 @media (max-width: 767.98px) {
