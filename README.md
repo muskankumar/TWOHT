@@ -13,14 +13,7 @@ TWOHT Website
 
 Requirements:
 
-1. New icon and png files for logo
-2. Images with correct size
-3. Books to be put in the spotlight books
-4. Who all in the authors section to be put
-5. 1920 x 1080 px images will be good and which have aspect ratio 16:9
-8. Add the TWOHT icon on the browser tab
-
-
+Photos requirements
 applogo : .ico file is require, also good 1:1 aspect ratio logo png without background required. (.ico, .png)
 carousel : 1920 x 1080 px images will be good and which have aspect ratio 16:9 (.jpeg)
 spotlight books : Which books the publish ?
@@ -30,4 +23,8 @@ spotlight books : Which books the publish ?
     Novella –  5 x 8
     Textbooks –  6 x 9, 7 x 10, 8.5 x 11
     Manuals & Workbooks – 8.5 x 11
+authores: 6:9 portrait photos
 
+what to do in the page placeholder instagram page ?
+
+what to Interested ? Join us page?
