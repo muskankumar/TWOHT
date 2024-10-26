@@ -60,3 +60,35 @@ background-color: #3f3244;
     
     }
 }
+.button-container {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+/* Button styling */
+.center-right-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.button-container {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+/* Button styling */
+.center-right-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
