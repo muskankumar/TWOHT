@@ -1,0 +1,148 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+        "nav-area"
+        "slideshow-area"
+        "spotlightbooks-area"
+        "authors-area"
+        "joinus-area"
+        "contactus-area";
+}
+
+/* Test Area Start */
+
+
+header {
+    grid-area: nav-area;
+    display: grid;
+    grid-column: 1fr 9fr;
+    grid-row: 1fr 1fr;
+    grid-template-areas:
+        "logo-area title-and-search-area"
+        "logo-area nav-links-area";
+}
+
+#logo {
+    width: clamp(150px, 100%, 200px);
+    grid-area: logo-area;
+    align-self: center;
+    justify-self: center;
+}
+
+#headingbar-searchbar {
+    grid-area: title-and-search-area;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    grid-area: nav-links-area;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar>a {
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+    text-align: center;
+    width: clamp(100px, 100%, 150px);
+    color: inherit;
+    border-bottom: 5px solid transparent;
+    transition: border-bottom-color 0.5s ease-in-out;
+}
+
+#navbar>a:hover {
+    border-bottom-color: #000;
+    transition: border-bottom-color 0.5s ease-in-out;
+}
+
+
+/* Media query for small (sm) and extra small (xs) screens */
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "logo-area"
+            "title-and-search-area"
+            "nav-links-area";
+    }
+
+    #headingbar-searchbar {
+        flex-direction: column;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+#nav-container {
+    background-color: #9c9696;
+    /* Light Red */
+}
+
+#slideshow-container {
+    background-color: #ffcccb;
+    /* Light Red */
+}
+
+#spotlightbooks-container {
+    background-color: #ccffcc;
+    /* Light Green */
+}
+
+#authors-container {
+    background-color: #ccccff;
+    /* Light Blue */
+}
+
+#joinus-container {
+    background-color: #ffffcc;
+    /* Light Yellow */
+}
+
+#contactus-container {
+    background-color: #ffccff;
+    /* Light Pink */
+}
+
+/* Test Area End */
+
+/* Header(Navbar) Section Start */
+
+/* Header(Navbar) Section End */
+
+/* Slide Show Section Start */
+
+/* Slide Show Section End */
+
+/* Spotlight Books Section Start */
+
+/* Spotlight Books Section End */
+
+/* Authors Section Start */
+
+/* Authors Section End */
+
+/* JoinUs Section Start */
+
+/* JoinUs Section End */
+
+/* Footer Section Start */
+
+/* Footer Section End */

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>The World of Hidden Thoughts</title>
+    <link rel="icon" href="../Assets/Images/logo_nobg.png" type="image/png">
+</head>
+
+<body>
+
+    <header id="nav-container">
+        <img src="../Assets/Images/logo_nobg.png" alt="The World of Hidden Thoughts Logo" id="logo">
+        <div id="headingbar-searchbar" >
+            <h1>The World of Hidden Thoughts</h1>
+            <div id="search-box">
+                <input type="text" id="search-bar" placeholder="Explore to know us">
+                <button id="search-btn">Search</button>
+            </div>
+            <button id="cart-button">Cart</button>
+        </div>
+        <nav id="navbar">
+            <a href="#AboutUs">About Us</a>
+            <a href="#OurTeam">Our Team</a>
+            <a href="#Books">Books</a>
+            <a href="#Events">Events</a>
+            <a href="#Publishwithus">Publish with us</a>
+            <a href="#LogIn">Log In</a>
+        </nav>
+    </header>
+    <style>
+        #slideshow-container {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16/9;
+            height: min(100px,auto,40vh);
+            margin: auto;
+            overflow: hidden;
+        }
+        #slideshow-container img {
+            width: 100%;
+            aspect-ratio: 16/9;
+            height: auto;
+            position: absolute;
+            opacity: 0;
+            animation: slideAnimation 30s infinite;
+        }
+
+        @keyframes slideAnimation {
+            0% {
+                opacity: 0;
+            }
+            20% {
+                opacity: 1;
+            }
+            80% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+
+    <div id="slideshow-container">
+        <img src="../Assets/Images/carousel/sample_1.jpg">
+        <img src="../Assets/Images/carousel/sample_2.jpg">
+        <img src="../Assets/Images/carousel/sample_3.jpg">
+        <img src="../Assets/Images/carousel/sample_4.jpg">
+        <img src="../Assets/Images/carousel/sample_5.jpg">
+        <img src="../Assets/Images/carousel/sample_6.jpg">
+        </div>
+
+        <script>
+        // Calculate the number of images and set the CSS variable
+        const images = document.querySelectorAll('#slideshow-container img');
+        const slideDuration = 30 / images.length; // 30s total animation duration divided by number of images
+        images.forEach((img, index) => {
+            img.style.setProperty('--slide-duration', slideDuration);
+            img.style.animationDelay = `${index * slideDuration}s`;
+        });
+        </script>
+
+
+    <div id="spotlightbooks-container">
+        <h1>Spotlightbooks-container</h1>
+    </div>
+
+    <div id="authors-container">
+        <h1>Authors-container</h1>
+    </div>
+
+    <div id="joinus-container">
+        <h1>Joinus-container</h1>
+    </div>
+
+    <footer id="contactus-container">
+        <h1>Contactus-container</h1>
+    </footer>
+
+</body>
+
+</html>
