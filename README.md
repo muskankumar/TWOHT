@@ -28,3 +28,11 @@ authores: 6:9 portrait photos
 what to do in the page placeholder instagram page ?
 
 what to Interested ? Join us page?
+
+1. Remove gray background (put white)
+2. Change the fonts
+3. Change pictures of the caraousel
+4. Change the explore to know us to gray color
+5. Our mission, vision and moto - placeholder section
+6. Frequently asked questions - last section
+7. Our Authors - circular and 6 in a row
