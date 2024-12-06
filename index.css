@@ -42,7 +42,9 @@ body {
 }
 
 .navbar_style {
-    background-color: #aaaca9;
+    background-image: url('Assets/Images/Header/Header.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .navbar_btn_style {
@@ -51,9 +53,13 @@ body {
 
 .title_style {
     font-family: 'TheSeason';
-    color: #3f3244;
+    color: #ffffff;
     font-style: normal;
     font-size: 1.8rem;
+}
+
+.nav-link {
+    color: #efefef;
 }
 
 .introduction_img_style {
@@ -119,6 +125,7 @@ body {
 
 .book-card-style {
     min-width: 16rem;
+    height: 500px;
     font-size: 14px;
 }
 
