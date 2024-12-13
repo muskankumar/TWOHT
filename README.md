@@ -36,3 +36,7 @@ what to Interested ? Join us page?
 5. Our mission, vision and moto - placeholder section
 6. Frequently asked questions - last section
 7. Our Authors - circular and 6 in a row
+13/12/2024
+8. Logo size increase 
+9. Title font change
+10. Logo and Title to be brought a little down - only by 3 to 4 px
