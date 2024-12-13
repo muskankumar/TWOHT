@@ -117,10 +117,8 @@ body {
     background-color: black;
     /* Green background */
     color: white;
-    position: relative;
-    top: 80vh;
-    right:60px;
-    margin-left: 20px;
+    position: absolute;
+    top: 30vh;
 }
 
 .floating-btn-left {
@@ -128,8 +126,9 @@ body {
     width: 130pt;
     transform-origin: left center;
     rotate: 90deg;
-    right: 0;
+    left: 25px;
     margin-right: 20px;
+
     z-index: 10;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -194,11 +193,11 @@ body {
 
     .signup-btn
     {
-        top: 70vh;
+        top: 68vh;
     }
     .contactus-btn
     {
-        top: 85vh;
+        top: 83vh;
     }
 
     .joinus-btn {
