@@ -118,13 +118,25 @@ body {
     /* Green background */
     color: white;
     position: relative;
-    top: 55vh;
+    top: 80vh;
     right:60px;
     margin-left: 20px;
 }
 
+.floating-btn-left {
+    height: 50pt;
+    width: 130pt;
+    transform-origin: left center;
+    rotate: 90deg;
+    right: 0;
+    margin-right: 20px;
+    z-index: 10;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: small;
+}
 
-.floting-btn {
+.floating-btn-right {
     height: 30pt;
     width: 80pt;
     transform-origin: right center;
@@ -178,6 +190,19 @@ body {
         object-fit: contain;
         object-position: center;
         height: auto;
+    }
+
+    .signup-btn
+    {
+        top: 70vh;
+    }
+    .contactus-btn
+    {
+        top: 85vh;
+    }
+
+    .joinus-btn {
+        top: 58.5vh;
     }
 
     .book-card-style {
