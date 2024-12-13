@@ -48,7 +48,7 @@ body {
 }
 
 .navbar_btn_style {
-    background-color: #3f3244;
+    background-color: black;
 }
 
 .title_style {
@@ -90,7 +90,7 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #3f3244;
+    background-color: black;
     /* Green background */
     color: white;
     position: absolute;
@@ -103,12 +103,26 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #3f3244;
+    background-color: black;
     /* Green background */
     color: white;
     position: absolute;
     top: 55vh;
 }
+
+.joinus-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    /* Green background */
+    color: white;
+    position: relative;
+    top: 55vh;
+    right:60px;
+    margin-left: 20px;
+}
+
 
 .floting-btn {
     height: 30pt;
@@ -118,8 +132,8 @@ body {
     right: 0;
     margin-right: 20px;
     z-index: 10;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     font-size: small;
 }
 
