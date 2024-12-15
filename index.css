@@ -148,12 +148,6 @@ body {
     font-size: small;
 }
 
-.book-card-style {
-    min-width: 16rem;
-    height: 500px;
-    font-size: 14px;
-}
-
 
 .grid-container {
     display: grid;
@@ -183,6 +177,57 @@ body {
     opacity: 1;
 }
 
+.custom-spotlight-carousel
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.spotlight-carousel-container {
+    display: grid;
+    align-items: center;
+    margin: 0 auto; /* Center the container horizontally */
+    overflow: hidden;
+    position: relative;
+    width: 85%;
+}
+
+.spotlight-carousel {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease-in-out;
+    grid-column: 2 / 3; /* Center column */
+}
+
+.spotlight-book {
+    width: 350px;
+}
+
+.spotlight-carousel-control-prev,
+.spotlight-carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.274);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.spotlight-carousel-control-prev {
+    width: 5%;
+    justify-self: center;
+    border-radius: 0 5px 5px 0;
+}
+
+.spotlight-carousel-control-next {
+    width: 5%;
+    justify-self: center;
+    border-radius: 5px 0 0 5px ;
+}
+
 @media (max-width: 767.98px) {
     .introduction_img_style {
         width: 100%;
@@ -202,10 +247,5 @@ body {
 
     .joinus-btn {
         top: 58.5vh;
-    }
-
-    .book-card-style {
-        min-width: 11rem;
-        font-size: 12px;
     }
 }
