@@ -40,3 +40,6 @@ what to Interested ? Join us page?
 8. Logo size increase 
 9. Title font change
 10. Logo and Title to be brought a little down - only by 3 to 4 px
+
+31 Dec 24
+- required SVG Logo for good view (if available)
