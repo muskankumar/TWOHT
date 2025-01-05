@@ -185,9 +185,12 @@ body {
     display: grid;
     align-items: center;
     margin: 0 auto;
-    /* Center the container horizontally */
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    scroll-behavior: smooth;
     width: 85%;
 }
 
