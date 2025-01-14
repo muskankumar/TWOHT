@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dependency/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .navbar-item {
+            flex: 1 1 50%;
+            text-align: left;
+        }
+        @media (min-width: 600px) {
+            .navbar-item {
+                flex: 1 1 auto;
+            }
+        }
+  </style>
+</head>
+<body>
+  <!-- Create Navbar which show all elements in one single row when its showing on big screen and it should automatically change it to multiple rows (Wrapping) when its show on samll screen-->
+  <div class="container">
+    <nav class="navbar">
+        <div class="navbar-item">Home</div>
+        <div class="navbar-item">About</div>
+        <div class="navbar-item">Services</div>
+        <div class="navbar-item">Contact</div>
+        <div class="navbar-item">Home</div>
+        <div class="navbar-item">About</div>
+        <div class="navbar-item">Services</div>
+        <div class="navbar-item">Contact</div>
+        <div class="navbar-item">Home</div>
+        <div class="navbar-item">About</div>
+        <div class="navbar-item">Services</div>
+        <div class="navbar-item">Contact</div>
+    </nav>
+</div>
+
+    <!-- <div class="row">
+        <div class="col-12">
+          <ul class="d-flex flex-sm-wrap" style="background-color: purple;">
+            <li class="nav-item nav_link col-sm-3 ">
+              <a class="nav-link" href="#AboutUs">About Us</a>
+            </li>
+            <li class="nav-item nav_link col-sm-3 ">
+              <a class="nav-link" href="#Plans">Plans</a>
+            </li>
+            <li class="nav-item nav_link col-sm-3 ">
+              <a class="nav-link" href="#Bookstore">Bookstore</a>
+            </li>
+            <li class="nav-item nav_link col-sm-3 ">
+              <a class="nav-link" href="#Gallery">Gallery</a>
+            </li>
+            <li class="nav-item nav_link col-sm-3 ">
+              <a class="nav-link" href="#Our Team">Our Team</a>
+            </li>
+            <li class="nav-item nav_link col-sm-3 ">
+              <a class="nav-link" href="#Publishwithus">Publish with us</a>
+            </li>
+            <li class="nav-item nav_link col-sm-3 "></li>
+              <a class="nav-link" href="#Startups">Startups</a>
+            </li>
+          </ul>
+        </div>
+      </div> -->
+      <script src="Dependency/bootstrap.bundle.min.js"></script>
+</body>
+</html>
