@@ -10,4 +10,5 @@ scrollContainer.addEventListener('wheel', (evt) => {
     } else {
         scrollContainer.scrollLeft -= elementWidth;
     }
+
 });

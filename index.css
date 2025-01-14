@@ -240,30 +240,6 @@ body {
     opacity: 1;
 }
 
-.spotlight-carousel-control-prev,
-.spotlight-carousel-control-next {
-    background-color: rgba(0, 0, 0, 0.274);
-    border: none;
-    color: white;
-    font-size: 24px;
-    padding: 10px;
-    cursor: pointer;
-    position: relative;
-    z-index: 1;
-}
-
-.spotlight-carousel-control-prev {
-    width: 5%;
-    justify-self: center;
-    border-radius: 0 5px 5px 0;
-}
-
-.spotlight-carousel-control-next {
-    width: 5%;
-    justify-self: center;
-    border-radius: 5px 0 0 5px;
-}
-
 .author-card-container {
     display: block;
 }
@@ -274,23 +250,30 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 14rem;
+    transition: transform 0.3s ease;
 }
 
 .author-image:hover {
-    transform: scale(1.1);
+    transform: scale(1.1) translateY(-1rem);
 }
 
 .author-desc {
+    margin-top: 1rem;
     text-align: center;
     height: 100%;
     width: 100%;
     display: block;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.5);
-    /* Optional: Add background for better visibility */
-    color: white;
-    /* Optional: Change text color for better visibility */
+}
+
+.author-desc > p {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.author-card-container:hover .author-desc > p {
+    opacity: 1;
 }
 
 @media (max-width: 767.98px) {
