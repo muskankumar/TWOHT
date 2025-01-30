@@ -125,7 +125,7 @@ body {
     /* Green background */
     color: white;
     position: absolute;
-    top: 60vh;
+    top: 68vh;
 }
 
 .joinus-btn {
@@ -136,7 +136,19 @@ body {
     /* Green background */
     color: white;
     position: absolute;
-    top: 35vh;
+    top: 27vh;
+}
+
+.schedulecall-btn
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    /* Green background */
+    color: white;
+    position: absolute;
+    top: 52vh;
 }
 
 .floating-btn-left {
@@ -276,6 +288,13 @@ body {
     opacity: 1;
 }
 
+.how-it-works
+{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 767.98px) {
 
 
@@ -299,7 +318,12 @@ body {
     }
 
     .joinus-btn {
-        top: 58.5vh;
+        top: 50vh;
+    }
+
+    .schedulecall-btn
+    {
+        top: 70vh;
     }
 
     .author-card-container {

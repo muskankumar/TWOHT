@@ -43,3 +43,7 @@ what to Interested ? Join us page?
 
 31 Dec 24
 - required SVG Logo for good view (if available)
+
+
+30 Jan 25
+- for mobile the "ow it works? image should be vertical so it will be visible to user.
