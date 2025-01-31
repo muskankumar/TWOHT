@@ -46,4 +46,11 @@ what to Interested ? Join us page?
 
 
 30 Jan 25
-- for mobile the "ow it works? image should be vertical so it will be visible to user.
+- for mobile the "how it works? image should be vertical so it will be visible to user.- size 
+- HEADING FONT SIZE INCREASE 
+- OUR AUTHORS MOVE A LITTLE BIT UP
+- MAKE OUR AUTHORS INTO SCROLL VIEW AND DECREASE THE SIZE
+- ADD SCROLL IN SPOTLIGHT BOOKS
+- GIVE DATA FOR ADEL AND SHIVI (AUTHOR)
+- CREATED AND HANDLED BY MUSKAN KUMAR
+- MAKE THE BUTTONS IN THE CARAOUSAL STICKY
