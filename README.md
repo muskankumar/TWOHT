@@ -54,3 +54,4 @@ what to Interested ? Join us page?
 - GIVE DATA FOR ADEL AND SHIVI (AUTHOR)
 - CREATED AND HANDLED BY MUSKAN KUMAR
 - MAKE THE BUTTONS IN THE CARAOUSAL STICKY
+- Add a Login button near the shopping cart
