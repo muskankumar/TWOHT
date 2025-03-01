@@ -50,8 +50,13 @@ what to Interested ? Join us page?
 - HEADING FONT SIZE INCREASE (Done)
 - OUR AUTHORS MOVE A LITTLE BIT UP (Done)
 - MAKE OUR AUTHORS INTO SCROLL VIEW AND DECREASE THE SIZE (InProgress)
-- ADD SCROLL IN SPOTLIGHT BOOKS (InProgress)
+- ADD SCROLL IN SPOTLIGHT BOOKS (Done)
 - GIVE DATA FOR ADEL AND SHIVI (AUTHOR) 
-- CREATED AND HANDLED BY MUSKAN AND SHIVA (Have to Do)
-- MAKE THE BUTTONS IN THE CARAOUSAL STICKY (InProgress)
-- Add a Login button near the shopping cart 
+- CREATED AND HANDLED BY MUSKAN AND Shiva (Have to Do)
+- MAKE THE BUTTONS IN THE CARAOUSAL STICKY (InProgress) ---- no need
+- Add a Login button near the shopping cart (Done)
+- View services button (To be done)
+- Click on plans and open the PDF in a new tab
+- Do "OUR TEAM" tab
+- PUBLISH WITH US , SIGN UP GOOGLE FORM HAS TO BE PROVIDED BY KARTIK 
+- JOIN OUR WHATSAPP COMMUNITY = WHATSAPP CHANNEL LINK 
