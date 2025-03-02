@@ -49,14 +49,14 @@ what to Interested ? Join us page?
 - for mobile the "how it works? image should be vertical so it will be visible to user.- size 
 - HEADING FONT SIZE INCREASE (Done)
 - OUR AUTHORS MOVE A LITTLE BIT UP (Done)
-- MAKE OUR AUTHORS INTO SCROLL VIEW AND DECREASE THE SIZE (InProgress)
+- MAKE OUR AUTHORS INTO SCROLL VIEW AND DECREASE THE SIZE (Done)
 - ADD SCROLL IN SPOTLIGHT BOOKS (Done)
 - GIVE DATA FOR ADEL AND SHIVI (AUTHOR) 
 - CREATED AND HANDLED BY MUSKAN AND Shiva (Have to Do)
 - MAKE THE BUTTONS IN THE CARAOUSAL STICKY (InProgress) ---- no need
 - Add a Login button near the shopping cart (Done)
-- View services button (To be done)
-- Click on plans and open the PDF in a new tab
+- View services button (Done)
+- Click on plans and open the PDF in a new tab (Done)
 - Do "OUR TEAM" tab
 - PUBLISH WITH US , SIGN UP GOOGLE FORM HAS TO BE PROVIDED BY KARTIK 
-- JOIN OUR WHATSAPP COMMUNITY = WHATSAPP CHANNEL LINK 
+- JOIN OUR WHATSAPP COMMUNITY = WHATSAPP CHANNEL LINK (Done)
