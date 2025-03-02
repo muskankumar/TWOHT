@@ -15,7 +15,7 @@ scrollContainer.addEventListener('wheel', (evt) => {
 
 const authorsScrollContainer = document.getElementById('authors-carousel-scrollbox');
 
-// 150px width + 10px margin on each side
+// 150px width + 25px margin on each side
 const authorElementWidth = document.querySelector('.author-card-container').offsetWidth; 
 
 authorsScrollContainer.addEventListener('wheel', (evt) => {

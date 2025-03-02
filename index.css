@@ -285,7 +285,8 @@ body {
 }
 
 .authors-carousel-container {
-    display: grid;
+    display: flex;
+    justify-content: center; /* Center the carousel */
     align-items: center;
     margin: 0 auto;
     position: relative;
@@ -299,11 +300,12 @@ body {
 
 .authors-carousel {
     display: flex;
-    gap: 10px;
+    margin-left: 7.5%;
+    gap: 25px;
     align-items: start;
     transition: transform 0.5s ease-in-out;
-    grid-column: 2 / 3;
-    /* Center column */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .authors-carousel-container::-webkit-scrollbar {
@@ -351,9 +353,5 @@ body {
     .schedulecall-btn
     {
         top: 70vh;
-    }
-
-    .author-card-container {
-        width: 15hw;
     }
 }
