@@ -12,3 +12,17 @@ scrollContainer.addEventListener('wheel', (evt) => {
     }
 
 });
+
+const authorsScrollContainer = document.getElementById('authors-carousel-scrollbox');
+
+// 150px width + 10px margin on each side
+const authorElementWidth = document.querySelector('.author-card-container').offsetWidth; 
+
+authorsScrollContainer.addEventListener('wheel', (evt) => {
+    evt.preventDefault();
+    if (evt.deltaY > 0) {
+        authorsScrollContainer.scrollLeft += authorElementWidth;
+    } else {
+        authorsScrollContainer.scrollLeft -= authorElementWidth;
+    }
+});
